@@ -3,6 +3,7 @@ class fruit {
     //propeerties
     public $name;
     public $color;
+    protected $type;
 
     //methods
     function setName($name) {
@@ -66,6 +67,14 @@ echo $toyota->color;
 class vegetable extends fruit {
     public $nutrient;
 
+    function setType($type){
+        $this->type = $type;
+    }
+
+
+    function getType(){
+        return $this->type;
+    }
 }
 
 $ponkinLeaf = new vegetable();
@@ -73,3 +82,6 @@ $ponkinLeaf = new vegetable();
 $ponkinLeaf->setName("ponkin leaf");
 
 echo $ponkinLeaf->getName();
+echo "<br>";
+$ponkinLeaf->setType("Berry");
+echo $ponkinLeaf->getType();
