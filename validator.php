@@ -25,7 +25,7 @@ public function validateEmpty($value, $fieldName){
 public function hasErrors(){
     return !empty($this->errors);
 }
-public function geterrors(){
+public function getErrors(){
     return $this->errors;
 }
 }
