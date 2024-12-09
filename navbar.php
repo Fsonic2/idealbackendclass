@@ -36,19 +36,16 @@
               <li class="nav-item">
                 <a class="nav-link" href="#">Media</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="login.php">Login</a>
-              </li>
             </ul>
-            <span class="navbar-text me-5">
-              <a href="#"
-                ><img src="./assets/img/Symbol.png" alt="" class="pe-2"
-              /></a>
-              <a href="#"
-                ><img src="./assets/img/Symbol (1).png" alt="" class="pe-2"
-              /></a>
-              <a href="#"><img src="./assets/img/Symbol (2).png" alt="" /></a>
-            </span>
+           <li class="nav-item dropdown">
+            <a  class="nav-link dropdown-toggle" href="#" id="navbarDropdown" roll="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Access Membership Account
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="login.php">Login</a></li>
+              <li><a class="dropdown-item" href="register.php">Registration Page</a></li>
+            </ul>
+           </li>
           </div>
         </div>
       </nav>   
